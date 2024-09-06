@@ -24,14 +24,15 @@ h1 {
 
 .presentationSection {
     display: flex;
+    flex-direction: row;
     max-width: 70vw;
-    min-width: 410px;
     justify-content: center;
     align-items: center;
     background-color: #191919;
     border-radius: 15px;
     padding: 15px;
 }
+
 
 .presentationSectionText {
     display: flex;
@@ -73,4 +74,11 @@ button:hover {
 
 a {
     text-decoration: none;
+}
+
+
+@media (max-width: 600px) {
+    .presentationSection {
+        flex-direction: column;
+    }
 }
