@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: Arial;
+    background-color: #0b0b0b;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#luisIcon {
+    image-rendering: pixelated;
+    padding: 25px;
+}
+
+.presentationSection {
+    display: flex;
+    max-width: 70vw;
+    min-width: 410px;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.presentationSectionText {
+    display: flex;
+    flex-direction: column;
+}
+
+.networkLinks {
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 15px;
+}
+
+button {
+    display: flex;
+    gap: 5px;
+    min-width: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px 25px;
+    background-color: #b0b0b0;
+    color: black;
+}
+
+button img {
+    padding: 0;
+    margin: 0;
+    width: 25px;
+}
+
+button:hover {
+    background-color: #dfdfdf;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
