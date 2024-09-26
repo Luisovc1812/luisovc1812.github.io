@@ -81,4 +81,12 @@ a {
     .presentationSection {
         flex-direction: column;
     }
+
+    .networkLinks {
+        flex-direction: column;
+    }
+
+    .networkLinks button {
+        width: 100%;
+    }
 }
